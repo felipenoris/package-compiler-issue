@@ -49,7 +49,7 @@ Platform Info:
 Error message:
 
 ```
-➜  ~ julia-1.6 sysimage.so
+➜  ~ julia sysimage.so
 ERROR: LoadError: syntax: invalid UTF-8 sequence
 Stacktrace:
  [1] top-level scope
@@ -59,3 +59,23 @@ in expression starting at /Users/felipenoris/sysimage.so:1
 
 ### Linux
 
+Version Info:
+
+```
+julia> versioninfo()
+Julia Version 1.6.0-beta1
+Commit b84990e1ac (2021-01-08 12:42 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-11.0.0 (ORCJIT, haswell)
+```
+
+Error message:
+
+```
+~$ julia --sysimage sysimage.so
+Aborted (core dumped)
+```
