@@ -49,12 +49,8 @@ Platform Info:
 Error message:
 
 ```
-➜  ~ julia sysimage.so
-ERROR: LoadError: syntax: invalid UTF-8 sequence
-Stacktrace:
- [1] top-level scope
-   @ ~/sysimage.so:1
-in expression starting at /Users/felipenoris/sysimage.so:1
+➜  ~ julia-1.6 --sysimage sysimage.so
+[1]    98411 abort      julia-1.6 --sysimage sysimage.so
 ```
 
 ### Linux
