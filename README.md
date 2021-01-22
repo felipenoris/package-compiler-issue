@@ -17,7 +17,7 @@ Status `~/Documents/src/package-compiler-issue/Project.toml`
 julia gen_sysimg.jl
 ```
 
-As a result, a `sysimg.so` file will be created at user's home dir.
+As a result, a `sysimage.so` file will be created at user's home dir.
 The file location is printed by the script.
 
 ## Start julia with
@@ -25,7 +25,7 @@ The file location is printed by the script.
 The following command yields an error:
 
 ```
-julia --sysimage=$HOMEDIR/sysimg.so
+julia --sysimage=$HOMEDIR/sysimage.so
 ```
 
 ## Results
