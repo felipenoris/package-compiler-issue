@@ -1,7 +1,9 @@
 
 # Package Compiler Issue Demonstration
 
-This repo demonstrates an issue with `PackageCompiler.jl` on Julia v1.6 Beta 1
+This repo demonstrates [Issue #494](https://github.com/JuliaLang/PackageCompiler.jl/issues/494).
+
+This example uses Julia v1.6 Beta 1
 with the following environment:
 
 ```
