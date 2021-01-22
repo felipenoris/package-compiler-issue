@@ -1,0 +1,4 @@
+[deps]
+BusinessDays = "4f18b42c-503e-5345-9536-bb0f25fc7038"
+InterestRates = "09453d48-b9e1-5bf0-a018-8d5c65f8cb56"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
